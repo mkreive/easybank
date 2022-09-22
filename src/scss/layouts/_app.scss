@@ -1,0 +1,10 @@
+.app {
+    display: flex;
+    padding: 8rem 20rem;
+    width: 100vw;
+    height: auto;
+    min-height: 100vh;
+    overflow: scroll;
+    font-family: 'Rubik', sans-serif;
+    background-color: green($color: #000000);
+}
