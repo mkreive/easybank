@@ -1,0 +1,13 @@
+.btn {
+    text-align: center;
+    color: $color-white;
+    font-weight: $font-weight-medium;
+    cursor: pointer;
+    padding: 1.5rem 2.5rem;
+    background-image: linear-gradient(to right, $color-primary-lime-green, $color-primary-light-cyan);
+    background-size: 200% auto;
+    border-radius: 30px;
+    border: none;
+    transition: 0.5s;
+    margin-left: 2rem;
+}

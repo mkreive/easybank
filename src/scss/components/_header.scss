@@ -1,8 +1,10 @@
 .header {
+    letter-spacing: -0.1rem;
     position: fixed;
     top: 0;
     display: flex;
     justify-content: space-between;
     width: 100vw;
     padding: 3rem 10rem;
+    font-size: $font-size-main;
 }
