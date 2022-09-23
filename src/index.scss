@@ -1,7 +1,12 @@
+// abstracts
 @import './scss/abstracts/mixins';
 @import './scss/abstracts/base';
 @import './scss/abstracts/variables';
 
+// components
+@import './scss/components/header';
+
+// layouts
 @import './scss/layouts/app';
 @import './scss/layouts/home';
 @import './scss/layouts/about';
