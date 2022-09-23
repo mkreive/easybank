@@ -15,21 +15,21 @@ const Header = function () {
 
             <nav className='header__nav'>
                 <ul className='nav'>
-                    <li component={Link} to={'/home'} className='nav__link'>
-                        Home
-                    </li>
-                    <li component={Link} to={'/about'} className='nav__link'>
-                        About
-                    </li>
-                    <li component={Link} to={'/contact'} className='nav__link'>
-                        Contact
-                    </li>
-                    <li component={Link} to={'/blog'} className='nav__link'>
-                        Blog
-                    </li>
-                    <li component={Link} to={'/careers'} className='nav__link'>
-                        Careers
-                    </li>
+                    <Link to={'/home'} style={{ textDecoration: 'none' }}>
+                        <li className='nav__link'>Home</li>
+                    </Link>
+                    <Link to={'/about'} style={{ textDecoration: 'none' }}>
+                        <li className='nav__link'>About</li>
+                    </Link>
+                    <Link to={'/contact'} style={{ textDecoration: 'none' }}>
+                        <li className='nav__link'>Contact</li>
+                    </Link>
+                    <Link to={'/blog'} style={{ textDecoration: 'none' }}>
+                        <li className='nav__link'>Blog</li>
+                    </Link>
+                    <Link to={'/careers'} style={{ textDecoration: 'none' }}>
+                        <li className='nav__link'>Careers</li>
+                    </Link>
                 </ul>
             </nav>
 
