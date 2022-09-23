@@ -3,9 +3,6 @@ import { Link } from 'react-router-dom';
 import '../index.scss';
 
 const Header = function () {
-    const linkStyle = {
-        textDecoration: 'none',
-    };
     return (
         <header className='header'>
             <div className='header__logo'>
@@ -17,23 +14,23 @@ const Header = function () {
             </div>
 
             <nav className='header__nav'>
-                <div className='nav'>
-                    <Link to='/home' style={linkStyle} className='nav__link'>
+                <ul className='nav'>
+                    <li component={Link} to={'/home'} className='nav__link'>
                         Home
-                    </Link>
-                    <Link to='/about' style={linkStyle} className='nav__link'>
+                    </li>
+                    <li component={Link} to={'/about'} className='nav__link'>
                         About
-                    </Link>
-                    <Link to='/contact' style={linkStyle} className='nav__link'>
+                    </li>
+                    <li component={Link} to={'/contact'} className='nav__link'>
                         Contact
-                    </Link>
-                    <Link to='/blog' style={linkStyle} className='nav__link'>
+                    </li>
+                    <li component={Link} to={'/blog'} className='nav__link'>
                         Blog
-                    </Link>
-                    <Link to='/careers' style={linkStyle} className='nav__link'>
+                    </li>
+                    <li component={Link} to={'/careers'} className='nav__link'>
                         Careers
-                    </Link>
-                </div>
+                    </li>
+                </ul>
             </nav>
 
             <div className='header__btns'>

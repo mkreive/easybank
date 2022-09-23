@@ -1,5 +1,18 @@
 .nav {
+    list-style-type: none;
+    display: flex;
+
     &__link {
-        gap: 2rem;
+        padding: 0 2rem 3rem 2rem;
+        font-size: $font-size-main;
+        color: $color-neutral-grayish-blue;
+        cursor: pointer;
+
+        &:hover {
+            color: $color-primary-dark-blue;
+
+            border-bottom: 5px solid;
+            border-image: linear-gradient(to right, $color-primary-lime-green, $color-primary-light-cyan) 1;
+        }
     }
 }
