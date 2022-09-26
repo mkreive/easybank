@@ -6,11 +6,16 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Blog from './components/Blog';
 import Careers from './components/Careers';
+import Footer from './components/Footer';
 
 const App = function () {
     return (
         <div className='app'>
             <Header />
+            <Home />
+            <About />
+            <Blog />
+            <Footer />
             <Routes>
                 <Route index element={<Home />} />
                 <Route path='/home' element={<Home />} />
