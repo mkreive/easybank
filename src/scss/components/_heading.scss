@@ -1,5 +1,11 @@
 .heading {
-    &--big {
+    &--biggest {
         font-size: $font-size-huge;
+    }
+    &--big {
+        font-size: $font-size-very-big;
+    }
+    &--medium {
+        font-size: $font-size-big;
     }
 }

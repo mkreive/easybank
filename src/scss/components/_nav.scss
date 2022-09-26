@@ -3,9 +3,10 @@
     display: flex;
 
     &__link {
-        padding: 0 2rem 3rem 2rem;
+        padding: 0 2rem 4rem 2rem;
         color: $color-neutral-grayish-blue;
         cursor: pointer;
+        border-bottom: 5px solid $color-white;
 
         &:hover {
             color: $color-primary-dark-blue;
