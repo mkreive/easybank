@@ -1,6 +1,8 @@
 .heading {
     &--biggest {
         font-size: $font-size-huge;
+        font-weight: $font-weight-light;
+        letter-spacing: -0.07rem;
     }
     &--big {
         font-size: $font-size-very-big;
